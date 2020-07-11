@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fondamento&family=Ultra&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    background-image: url("../assets/animals-forest-cartoons-meet-together-vector-21771013.jpg");
+    background-repeat: no-repeat;
+    background-size: 1710px 870px;
+}
+header{
+    width: 100%;
+    line-height: 30vh;
+}
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+    letter-spacing: 7px;
+    padding-top: -80px;
+    color: black;
+    font-family: 'Bangers', cursive;
+}
+p {
+    text-align: center;
+    letter-spacing: 4px;
+    color: black;
+    font-weight: 200;
+    margin-top: -180px;
+    padding-left: 200px;
+    font-family: 'Bangers', cursive;
+}
+button {
+    font-family: 'Fondamento', cursive;
+    text-align: center;
+    font-size: 2rem;
+    border:white;
+    letter-spacing: 5px;
+    cursor: pointer;
+    margin-top: 35px;
+    color: rgb(0, 0, 0);
+    margin-left: 800px;   
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 50%;
+    background-image: url("../assets/bright-tropical-background-cartoon-jungle-animals-spring-summer-season-abstract-nature-banner-plants-exotic-pattern-leaves-117102141.jpg");
+    background-repeat: no-repeat;
+    background-size: 1750px 900px;
+}
+header{
+    width: 70%;
+    line-height: 40vh;
+    margin-left: 650px;
+    font-size: large;
+    font-family: 'Oleo Script', cursive;
+}
+.btn1 {
+    display: block;
+    margin-left: 830px;
+}
+.btn2 {
+    display: block;
+    margin-left: 810px;
+    margin-top: 30px;
+}
+button{
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    border:white;
+    cursor: pointer;
+    color: black;
+    font-family: 'Oleo Script', cursive;
+    text-align: center;
+}

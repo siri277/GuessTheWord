@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../assets/31-312205_jungle-border-clipart-jungle-png.png);
+    background-repeat: no-repeat;
+    background-size: 1710px 820px;
+}
+.over {
+    font-size: 1.8rem;
+    font-family: 'Oleo Script', cursive;
+    letter-spacing: 0.4rem;
+    margin-top: 18%;
+    margin-left: 40%;
+}
+button {
+    font-family: 'Oleo Script', cursive;
+    font-size: 2rem;
+    border:white;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+    color: darkgreen;
+    margin-left: 750px;
+}
