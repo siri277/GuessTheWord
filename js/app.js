@@ -49,7 +49,7 @@ function timer() {
     var downtimer = setInterval(function () {
         if (timeleft < 0) {
             clearInterval(downtimer);
-            window.location.href = "/index4.html";
+            window.location.href = "index4.html";
         }
         else {
             document.getElementById("timer").innerText = "Time Left : " + timeleft;
