@@ -14,16 +14,16 @@ let sWords1 = ["tiger", "fox", "lion", "snake", "giraffe", "dog", "elephant", "h
     "cat", "deer", "monkey", "sheep", "buffalo", "hippopotamus", "cheetah", "rhinoceros"];
 
 function start() {
-    window.location.href = "../static pages/index1.html";
+    window.location.href = "GuessTheWord/static pages/index1.html";
 }
 function birds() {
-    window.location.href = "../static pages/index3.html";
+    window.location.href = "GuessTheWord/static pages/index3.html";
 }
 function animals() {
-    window.location.href = "../static pages/index2.html";
+    window.location.href = "GuessTheWord/static pages/index2.html";
 }
 function playagain() {
-    window.location.href = "../static pages/index1.html";
+    window.location.href = "GuessTheWord/static pages/index1.html";
 }
 
 const createNewWords1 = () => {
