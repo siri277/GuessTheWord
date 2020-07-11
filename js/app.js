@@ -17,13 +17,13 @@ function start() {
     window.location.href = "/GuessTheWord/static pages/index1.html";
 }
 function birds() {
-    window.location.href = "GuessTheWord/static pages/index3.html";
+    window.location.href = "/index3.html";
 }
 function animals() {
-    window.location.href = "GuessTheWord/static pages/index2.html";
+    window.location.href = "/index2.html";
 }
 function playagain() {
-    window.location.href = "GuessTheWord/static pages/index1.html";
+    window.location.href = "/index1.html";
 }
 
 const createNewWords1 = () => {
@@ -49,7 +49,7 @@ function timer() {
     var downtimer = setInterval(function () {
         if (timeleft < 0) {
             clearInterval(downtimer);
-            window.location.href = "GuessTheWord/static pages/index4.html";
+            window.location.href = "/index4.html";
         }
         else {
             document.getElementById("timer").innerText = "Time Left : " + timeleft;
