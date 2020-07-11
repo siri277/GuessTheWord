@@ -58,7 +58,7 @@ button2.addEventListener("click", function () {
         button2.innerHTML = "Guess";
         guess.classList.toggle("hidden");
         newWords2 = createNewWords2();
-        randWords2 = scrambleWords2(newWords2.split(""));
+        randWords2 = scrambleWords2(newWords2.split("")).join("");
         //console.log(randWords.join(""));
         msg.innerHTML = randWords2;
 
