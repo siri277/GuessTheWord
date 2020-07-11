@@ -17,13 +17,13 @@ function start() {
     window.location.href = "/GuessTheWord/static pages/index1.html";
 }
 function birds() {
-    window.location.href = "/index3.html";
+    window.location.href = "index3.html";
 }
 function animals() {
-    window.location.href = "/index2.html";
+    window.location.href = "index2.html";
 }
 function playagain() {
-    window.location.href = "/index1.html";
+    window.location.href = "index1.html";
 }
 
 const createNewWords1 = () => {
