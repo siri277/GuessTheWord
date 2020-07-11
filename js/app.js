@@ -14,7 +14,7 @@ let sWords1 = ["tiger", "fox", "lion", "snake", "giraffe", "dog", "elephant", "h
     "cat", "deer", "monkey", "sheep", "buffalo", "hippopotamus", "cheetah", "rhinoceros"];
 
 function start() {
-    window.location.href = "/GuessTheWord/static pages/index1.html";
+    window.location.href = "/static pages/index1.html";
 }
 function birds() {
     window.location.href = "static pages/index3.html";
